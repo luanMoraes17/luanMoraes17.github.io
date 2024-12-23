@@ -3,75 +3,129 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <title>Projeto CSS</title>
+    <link rel="stylesheet" href="estilo2.css">
 
-    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <header class="hero">
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Cursos</a></li>
-            </ul>
-        </nav>
+    <h1 class="main-title">Lista de contatos</h1>
 
-        <div class="hero-content">
-            <h1>Cursos serfrontend</h1>
-            <p>Tudo o que precisa saber para iniciar na carreira</p>
-        </div>
-    </header>
+    <div class="list-wrapper">
+        <ul class="list">
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/1.jpg" alt="Brennan George">
+                </div>
 
-    <main>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Brennan George
+                    </p>
+                    <p class="list-item__email">brennan.george@example.com</p>
+                </div>
 
-        <section>
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
 
-            <article>
-                <header>
-                    <h2>O HTML</h2>
-                </header>
-                <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o
-                    significado e a estrutura do conteúdo da web. Outras tecnologias além do <a href="#">HTML</a>
-                    geralmente são
-                    usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento
-                    (JavaScript) de uma página da web.</p>
-                <a href="#" class="btn">Clique aqui e saiba mais</a>
-            </article>
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/2.jpg" alt="Brennan George">
+                </div>
 
-            <article>
-                <header>
-                    <h2>O CSS</h2>
-                </header>
-                <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US)
-                    usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias
-                    linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na
-                    tela, no papel, na fala ou em outras mídias.</p>
-                <a href="#" class="btn">Saiba mais</a>
-            </article>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Adam Weaver
+                    </p>
+                    <p class="list-item__email">adam.weaver@example.com</p>
+                </div>
 
-            <article>
-                <header>
-                    <h2>O Javascript</h2>
-                </header>
-                <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos
-                    com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas
-                    usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe
-                    Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica,
-                    suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a
-                    programação funcional). Saiba mais sobre o JavaScript.</p>
-                <a href="#" class="btn">Saiba mais</a>
-            </article>
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
 
-        </section>
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/3.jpg" alt="Brennan George">
+                </div>
 
-    </main>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Troy Butler
+                    </p>
+                    <p class="list-item__email">troy.butler@example.com</p>
+                </div>
 
-    <footer class="rodape">
-        Copyright &copy; 2024
-    </footer>
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/4.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Isobel Lewis
+                    </p>
+                    <p class="list-item__email">isobel.lewis@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/5.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Lisa Garcia
+                    </p>
+                    <p class="list-item__email">lisa.garcia@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/6.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Carolyn Silva
+                    </p>
+                    <p class="list-item__email">carolyn.silva@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
 </body>
 
 </html>
